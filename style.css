@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav_bg_color{
+    background: #264653;
+}
+
+#search_area{
+    width: 250px;
+}
+
+#cart_dialog{
+    text-decoration: none;
+}
+
+/*Slider area css*/
+.slider-img{
+   margin: 50px 140px;
+}
+
+.slider-text-area{
+    margin-top: 120px;
+}
+.slider-text-area h2{
+    text-align: center;
+}
+
+.slide-bg{
+    background-color: black;
+}
