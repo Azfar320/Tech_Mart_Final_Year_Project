@@ -69,3 +69,39 @@ body{
     background-color: #264653;
 }
 
+/* news section css */
+
+ #news-section{
+     height: 300px;
+     background-color: #264653
+ }
+
+ #news-section h2{
+     color: white;
+     text-align: center;
+     padding-top: 40px;
+ }
+ .news-area{
+     width: 100%;
+     margin: auto;
+     background-color: #264653;
+ }
+ .news-feed{
+     height: 420px;
+     overflow: hidden;
+ }
+ .news-img{
+     width: 250px;
+     margin: auto;
+ }
+ .news-img img{
+     width: 100%;
+ }
+ .card{
+     margin: 25px auto;
+ }
+
+ .btn-news{
+     background-color: #264653;
+ }
+ 
