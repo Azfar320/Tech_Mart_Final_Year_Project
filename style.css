@@ -96,6 +96,15 @@ main{
     margin: auto;
 }
 
+.more-click{
+    text-decoration: none;
+    color: rgb(149, 179, 158);
+}
+
+.more-click:hover{
+    color: rgb(235, 161, 161);
+}
+
 /* footer section css */
 footer{
     background-color: black;
