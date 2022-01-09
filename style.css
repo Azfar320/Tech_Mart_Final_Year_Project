@@ -10,7 +10,9 @@ body{
 #search_area{
     width: 250px;
 }
-
+main{
+    background-color: #264653;
+}
 #cart_dialog{
     text-decoration: none;
 }
@@ -70,38 +72,82 @@ body{
 }
 
 /* news section css */
+.news-card-group{
+    background-color: #264653;
+    padding-bottom: 25px;
+}
 
- #news-section{
-     height: 300px;
-     background-color: #264653
- }
+#news-title{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.news-card{
+    background-color: #264653;
+}
 
- #news-section h2{
-     color: white;
-     text-align: center;
-     padding-top: 40px;
- }
- .news-area{
-     width: 100%;
-     margin: auto;
-     background-color: #264653;
- }
- .news-feed{
-     height: 420px;
-     overflow: hidden;
- }
- .news-img{
-     width: 250px;
-     margin: auto;
- }
- .news-img img{
-     width: 100%;
- }
- .card{
-     margin: 25px auto;
- }
+.news-image{
+    width: 250px;
+    margin: auto;
+}
 
- .btn-news{
-     background-color: #264653;
- }
- 
+.news-image img{
+    width: 95%;
+    margin: auto;
+}
+
+/* footer section css */
+footer{
+    background-color: black;
+}
+
+#footer-section{
+    background-color: black;
+    height: 300px;
+    margin-top: -12px;
+}
+
+#footer-logo{
+    width: 180px;
+    height: 75px;
+    margin-top: 30px;
+}
+
+#footer-logo img{
+    width:100%;
+    height: 100%;
+}
+#footer-left-part{
+    background-color: black;
+}
+
+#footer-left-part #footer-logo{
+    margin-left: 120px;
+}
+
+#footer-left-part .card-body{
+    margin-left: 120px;
+    background-color: black;
+}
+
+#footer-right-part{
+    background-color: black;
+}
+
+#footer-right-part .card-body{
+    margin-left: 120px;
+    background-color: black;
+}
+
+#footer-right-part .card-body .card-title{
+    margin-top: 90px;
+}
+
+#copyright-footer{
+    width: 100%;
+}
+
+#copyright-footer #copyright{
+    text-align: center;
+    font-size: 14px;
+}
