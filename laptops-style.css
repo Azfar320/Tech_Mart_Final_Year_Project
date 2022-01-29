@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* Common css for navbar */
+#nav_bg_color{
+    background: #264653;
+}
+
+#search_area{
+    width: 250px;
+}
+main{
+    background-color: #264653;
+}
+#cart_dialog{
+    text-decoration: none;
+}
+
+/* common css for menu */
+#product-menu{
+    background-color: #264653;
+}
+
+#menu-title{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.menu-image{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    margin:  20px auto 0px auto;
+    border-radius: 8px;
+}
+
+.menu-image img{
+    width: 80%;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.menu-title{
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.menu-bg-color{
+    background-color: #264653;
+}
+
+
+/* Common css for footer */
+footer{
+    background-color: black;
+}
+
+#footer-img-section{
+    width: 150px;
+    margin: 20px auto;
+}
+
+#footer-img-section img{
+    width: 100%;
+}
+
+#copyright-footer{
+    width: 100%;
+}
+
+#copyright-footer #copyright{
+    text-align: center;
+    font-size: 14px;
+}
