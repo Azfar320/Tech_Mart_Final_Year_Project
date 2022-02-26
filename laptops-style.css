@@ -17,6 +17,57 @@ main{
     text-decoration: none;
 }
 
+/* laptop area css*/
+#laptop-area{
+    width: 100%;
+    background-color: black;
+}
+
+#laptop-title{
+    padding-top: 30px;
+}
+
+#laptops{
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.laptop-col{
+    background-color: black;
+    border: 1px solid white;
+}
+
+.laptop-item-frame{
+    background-color: black;
+}
+
+.laptop-img-frame{
+    width: 200px;
+    margin: 5px auto;
+    background-color: black;
+}
+
+.laptop-img-frame img{
+    width: 100%;
+}
+
+.laptop-name{
+    background-color: black;
+}
+
+.laptop-item{
+    text-align: center;
+}
+
+.laptop-item a{
+    text-decoration: none;
+}
+
+.laptop-item a:hover{
+    font-size: 21px;
+    transition: 0.3s;
+}
+
 /* common css for menu */
 #product-menu{
     background-color: #264653;
@@ -53,12 +104,33 @@ main{
 
 .menu-bg-color{
     background-color: #264653;
+    padding-bottom: 20px;
+}
+.menu-item{
+    text-decoration: none;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: white;
+}
+.menu-item :hover{
+    color: rgb(245, 134, 115);
+}
+.menu-bg-color{
+    background-color: #264653;
 }
 
 
 /* Common css for footer */
 footer{
     background-color: black;
+    padding-top: -10px;
 }
 
 #footer-img-section{
@@ -72,6 +144,7 @@ footer{
 
 #copyright-footer{
     width: 100%;
+    margin: auto;
 }
 
 #copyright-footer #copyright{

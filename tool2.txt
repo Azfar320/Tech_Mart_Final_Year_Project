@@ -1,0 +1,23 @@
+<?php
+require('connection.php');
+
+$sql = "SELECT * FROM article";
+
+//mysql object oriented method
+$result = $conn->query($sql);
+
+if($result){
+   //to show data from database
+  while( $data = mysqli_fetch_assoc($result)){
+      
+ 
+   $head = $data['heading'];  //ekhane data["item"] er vetorer property hosse database er column header name
+   $cat = $data['category'];
+   $details = $data['details'];
+
+   echo '<h2>'.$head.'</h2>'.'<h4>'.$cat.'</h4>'.'<p>'.$details.'</p>';
+   echo '<br>';
+    }
+}
+
+?>
