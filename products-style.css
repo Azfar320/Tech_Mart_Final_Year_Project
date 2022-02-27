@@ -18,54 +18,54 @@ main{
 }
 
 /* laptop area css*/
-#laptop-area{
+#product-area{
     width: 100%;
     background-color: black;
 }
 
-#laptop-title{
+#product-title{
     padding-top: 30px;
 }
 
-#laptops{
+#products{
     margin: auto;
     padding-bottom: 30px;
 }
 
-.laptop-col{
+.product-col{
     background-color: black;
     border: 1px solid white;
 }
 
-.laptop-item-frame{
+.product-item-frame{
     background-color: black;
 }
 
-.laptop-img-frame{
+.product-img-frame{
     width: 200px;
     margin: 5px auto;
     background-color: black;
 }
 
-.laptop-img-frame img{
+.product-img-frame img{
     width: 100%;
 }
 
-.laptop-name{
+.product-name{
     background-color: black;
 }
 
-.laptop-item{
+.product-item{
     text-align: center;
 }
 
-.laptop-item a{
+.product-item a{
     text-decoration: none;
 }
 
-.laptop-item a:hover{
+.product-item a:hover{
     font-size: 21px;
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
 }
 
 /* common css for menu */
