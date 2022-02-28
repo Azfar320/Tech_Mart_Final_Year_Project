@@ -23,8 +23,26 @@ main{
     background-color: black;
 }
 
+.product-area{
+    width: 100%;
+    background-color: black;   
+}
+
 #product-title{
     padding-top: 30px;
+}
+
+#product-title1{
+    padding-top: 40px;
+}
+#product-title2{
+    padding-top: 40px;
+}
+#product-title3{
+    padding-top: 40px;
+}
+#product-title4{
+    padding-top: 40px;
 }
 
 #products{
