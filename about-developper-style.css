@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav_bg_color{
+    background: #264653;
+}
+
+#search_area{
+    width: 250px;
+}
+main{
+    background-color: #264653;
+}
+#cart_dialog{
+    text-decoration: none;
+}
+
+/* developper section css */
+#developper-img{
+    width: 200px;
+    margin: 20px auto;
+}
+
+#developper-img img{
+    width: 100%;
+}
+#developper-description{
+    width: 400px;
+    margin: 10px auto;
+}
+
+#developper-description h6{
+    color: white;
+}
+
+/* menu section css */
+#product-menu{
+    background-color: #264653;
+}
+
+#menu-title{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.menu-image{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    margin:  20px auto 0px auto;
+    border-radius: 8px;
+}
+
+.menu-image img{
+    width: 80%;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.menu-item{
+    text-decoration: none;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: white;
+}
+.menu-item :hover{
+    color: rgb(245, 134, 115);
+}
+.menu-bg-color{
+    background-color: #264653;
+}
+
+/* footer section css */
+footer{
+    background-color: black;
+}
+
+#footer-img-section{
+    width: 150px;
+    margin: 20px auto;
+}
+
+#footer-img-section img{
+    width: 100%;
+}
+
+#copyright-footer{
+    width: 100%;
+    margin: auto;
+}
+
+#copyright-footer #copyright{
+    text-align: center;
+    font-size: 14px;
+}
