@@ -80,40 +80,6 @@ main{
     background-color: #264653;
 }
 
-/* news section css */
-.news-card-group{
-    background-color: #264653;
-    padding-bottom: 25px;
-}
-
-#news-title{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
-.news-card{
-    background-color: #264653;
-}
-
-.news-image{
-    width: 250px;
-    margin: auto;
-}
-
-.news-image img{
-    width: 95%;
-    margin: auto;
-}
-
-.more-click{
-    text-decoration: none;
-    color: rgb(149, 179, 158);
-}
-
-.more-click:hover{
-    color: rgb(235, 161, 161);
-}
-
 /* footer section css */
 footer{
     background-color: black;
